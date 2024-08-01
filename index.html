@@ -18,9 +18,19 @@
           <button onclick="handleSearch()" class="btn btn-primary">Search</button>
         </section>
 <!-- Search Functionality End -->
-        <section>
+
+        <section> 
+            <!-- spinner funttionality Start -->
+            <div id="loading-spinner" class="text-center my-40 hidden">
+                <span class="loading loading-spinner loading-lg"></span>
+            </div>
+            <!-- spinner funttionality End -->
             <div id="phone-container" class=" grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4">
                 
+            </div>
+<!-- Show all Button -->
+            <div id="show-all-button" class="hidden">
+                <button class="btn btn-accent">Show All</button>
             </div>
         </section>
     </main>
